@@ -1,0 +1,442 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"url",
+				"urlContent"
+			],
+			[
+				"bui",
+				"builderDirectory"
+			],
+			[
+				"B",
+				"BuilderDirectory"
+			],
+			[
+				"re",
+				"requestWraper"
+			],
+			[
+				"lg",
+				"login"
+			],
+			[
+				"wa",
+				"waitFor"
+			],
+			[
+				"log",
+				"loginMethod"
+			],
+			[
+				"file",
+				"fileContents"
+			],
+			[
+				"has",
+				"hasVar"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"var",
+				"variablesContent"
+			],
+			[
+				"fu",
+				"funcParent"
+			],
+			[
+				"new",
+				"newPagePathName"
+			],
+			[
+				"ol",
+				"oldPagePathName"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"erro",
+				"error404pagepath"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"selecte",
+				"selectedRowsIndex"
+			],
+			[
+				"sele",
+				"selectedIds"
+			],
+			[
+				"vide",
+				"videosList"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"sel",
+				"selectRows"
+			],
+			[
+				"select",
+				"selectRow"
+			],
+			[
+				"rec",
+				"records"
+			],
+			[
+				"data",
+				"arrData"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 387.0,
+		"last_filter": "json",
+		"selected_items":
+		[
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"jso",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"jon",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pret",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/vinicius/Projetos/react-canvas"
+	],
+	"file_history":
+	[
+		"/Users/vinicius/Dropbox/Pessoal/plantao.htm",
+		"/Users/vinicius/Desktop/aem-preview-mode (1).conf",
+		"/Users/vinicius/Desktop/aem-preview-mode.conf",
+		"/Users/vinicius/.ssh/id_rsa_viniciusdiogo-gmail-com",
+		"/Users/vinicius/.ssh/id_rsa_viniciusdiogo-gmail-com.pub",
+		"/Users/vinicius/.ssh/config",
+		"/Users/vinicius/Projetos/github/test/npm-debug.log",
+		"/Users/vinicius/.ssh/id_rsa.pub",
+		"/Users/vinicius/.ssh/id_rsa_github",
+		"/Users/vinicius/.ssh/id_rsa_vmelo-ciandt-com",
+		"/Users/vinicius/.ssh/id_rsa_vmelo-ciandt-com.pub",
+		"/Users/vinicius/Projetos/aem-json-to-package/package-reference/jcr_root/content/go/cit/sample-pages/BR/components/article/.content.xml",
+		"/Users/vinicius/Projetos/aem-json-to-package/package/jcr_root/content/go/cit/sample-pages/BR/components/article/.content.xml",
+		"/Users/vinicius/Desktop/Enc_ www_unimedbh_com_br - Fale conosco_060617.eml",
+		"/Users/vinicius/Desktop/tania/tania.txt",
+		"/Users/vinicius/Desktop/tania.txt",
+		"/Users/vinicius/Projetos/aem-json-to-package/package/jcr_root/content/go/cit/sample-pages/.content.xml",
+		"/Users/vinicius/Projetos/aem-json-to-package/app.js",
+		"/Users/vinicius/Projetos/aem-json-to-package/fullJson2.json",
+		"/Users/vinicius/Desktop/mrv.txt",
+		"/Users/vinicius/Projetos/aem-clientlibs-extract/utilSync.js",
+		"/Users/vinicius/Projetos/aem-json-to-package/fullJson.json",
+		"/Users/vinicius/Projetos/aem-json-to-package/b.txt",
+		"/Users/vinicius/Projetos/aem-json-to-package/a.txt",
+		"/Users/vinicius/Projetos/aem-package-with-dam/fullgo.json",
+		"/Users/vinicius/Projetos/aem-package-with-dam/META-INF/vault/filter.xml",
+		"/Users/vinicius/Projetos/aem-package-with-dam/app.js",
+		"/Users/vinicius/Desktop/content.-1.json",
+		"/Users/vinicius/Projetos/aem-json2package/app.js",
+		"/Users/vinicius/Projetos/aem-json2package/config/default.json",
+		"/Users/vinicius/Projetos/aem-json2package/loginStrategy.js",
+		"/Users/vinicius/Projetos/aem-json2package/package_sample_2/content.1.json",
+		"/Users/vinicius/Projetos/aem-json2package/builderDirectory.js",
+		"/Users/vinicius/Projetos/aem-json2package/docs/sample.js",
+		"/Users/vinicius/Projetos/aem-json2package/package_sample_2/content.go.1.json",
+		"/Users/vinicius/Projetos/aem-json2package/package_sample_2/content.go.sprite.1.json",
+		"/Users/vinicius/Projetos/aem-json2package/package_sample_2/content.go.sprite.MX.1.json",
+		"/Users/vinicius/Projetos/aem-json2package/package_sample_2/content.go.sprite.MX.en.1.json",
+		"/Users/vinicius/Projetos/aem-json2package/package_sample_2/content.go.sprite.MX.en.home.1.json",
+		"/Users/vinicius/Projetos/aem-json2package/message.txt",
+		"/Users/vinicius/Projetos/aem-json2package/index.js",
+		"/Users/vinicius/Projetos/aem-json2package/package.json",
+		"/Users/vinicius/Projetos/browserstack-compare-viewer/app.js",
+		"/Users/vinicius/Projetos/browserstack-compare-viewer/.gitignore",
+		"/Users/vinicius/Projetos/browserstack-compare-viewer/bower_components/jquery/dist/jquery.min.js",
+		"/Users/vinicius/Projetos/browserstack/app.js",
+		"/Users/vinicius/Projetos/browserstack/command.txt",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract-2/extracted/_10-carousel.scss",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract-2/extracted/_section-cid.scss",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract-2/extracted/_smrt-01-a.scss",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract-2/theme.scss",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract/extracted/_section-3-col-slider.scss",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract/extracted/_section-4-col-slider.scss",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract/_section-4-col-slider.scss",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract/theme.scss",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract/extract.js",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract 2/extract.js",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract/package.json",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract/extracted/_section-video.scss",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract/_4-root.scss",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract/extracted/_4-root.scss",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract/extracted/_section-social.scss",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract/_section-video.scss",
+		"/Users/vinicius/Projetos/cit/sass-variable-extract/_10-carousel.scss",
+		"/Users/vinicius/Desktop/debug.html",
+		"/Users/vinicius/Desktop/fix-error-script.js",
+		"/Users/vinicius/Projetos/cit/gitclone.sh",
+		"/Users/vinicius/Dropbox/fix error.js",
+		"/Users/vinicius/.ssh/id_rsa_bitcit.pub",
+		"/Users/vinicius/Projetos/cit/mavericks/com.tccc.go.app.smart-products/smart-products-service/main.py",
+		"/Users/vinicius/Projetos/cit/mavericks/com.tccc.go.app.smart-products/smart-products-service/models/__init__.py",
+		"/Users/vinicius/Projetos/cit/mavericks/com.tccc.go.app.smart-products/smart-products-service/teste.py",
+		"/Users/vinicius/Dropbox/__Lixeira/PaginatedGallery/sasasas.js",
+		"/Users/vinicius/Projetos/cit/com.tccc.go_thiagorv_cit/content/src/main/content/jcr_root/apps/projectux/components/PaginatedGallery/dialogTabs/autoTab.xml",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/Poc/YoutubeChannel/.content.xml",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/Poc/YoutubeChannel/dialog.xml",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/Location/_cq_editConfig.xml",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/Poc/YoutubeChannel/_cq_editConfig.xml",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/Poc/YoutubeChannel/clientlibs/.content.xml",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/Poc/YoutubeChannel/clientlibs/js.txt",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/Poc/YoutubeChannel/clientlibs/YoutubeChannel.js",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/FeaturedFMAnimated/dialog.xml",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/FeaturedVideos/clientlibs/lib/Listeners.js",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/Poc/YoutubeChannel/template.jsp",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/Poc/YoutubeChannel/setup.template.jsp",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/Poc/YoutubeChannel/YoutubeChannel.java",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/Location/editorLibs/LocationCrud.js",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/PaginatedGallery/_cq_editConfig.xml",
+		"/Users/vinicius/Desktop/aemsync.txt",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/etc/designs/projectux/componentsLib/galleryCarousel/gallery-carousel.js",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/etc/designs/projectux/footerLibs/js/main.js",
+		"/Users/vinicius/Projetos/cit/kogo/content/src/main/content/jcr_root/apps/projectux/components/AudioTier/template.jsp",
+		"/Users/vinicius/AEM/Author/crx-quickstart/bin/start",
+		"/Users/vinicius/AEM/Publish/crx-quickstart/bin/start",
+		"/Users/vinicius/AEM/Author/crx-quickstart/bin/stop",
+		"/etc/fstab",
+		"/Users/vinicius/Projetos/cit/GIT/update/bundle/core/src/main/java/com/tccc/projectux/utility/SiteUtil.java",
+		"/Users/vinicius/.gitconfig",
+		"/Users/vinicius/.git/config",
+		"/Users/vinicius/.bash_profile",
+		"/Users/vinicius/Desktop/criar link para sublime bash.txt",
+		"/Users/vinicius/.ssh/id_rsa_github.pub",
+		"/Users/vinicius/AEM/Author/start.bat",
+		"/Users/vinicius/Desktop/Links.txt",
+		"/Users/vinicius/Dropbox/hibernate.mac.txt",
+		"/Users/vinicius/Projetos/backstopjs/backstop.json",
+		"/Users/vinicius/Desktop/Vinicius.txt",
+		"/Users/vinicius/Desktop/accents-shortcuts.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "react-canvas.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"multi",
+				"content/shared/target/classes/apps/shared/widgets/source/widgets/form/MultiMultiCompositeField.js"
+			],
+			[
+				"mult",
+				"content/shared/target/classes/apps/shared/widgets/source/widgets/form/MultiCompositeField.js"
+			],
+			[
+				"carous",
+				"content/src/main/content/jcr_root/etc/designs/projectux/componentsLib/galleryCarousel/gallery-carousel.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 310.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
