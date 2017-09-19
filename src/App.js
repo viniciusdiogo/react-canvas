@@ -31,6 +31,12 @@ class App extends React.Component {
 
     componentDidMount() {
         console.log('did mount')
+        let countRectagles = localStorage.getItem('react-canvas-count');
+        console.log('load localstorage', countRectagles);
+        for (let i = 0; i < countRectagles; i++) {
+            console.log('loading', i)
+            this.onAddBtnClick.call(this, null, true);
+        }
     }
 
     componentWillUnmount() {
@@ -38,7 +44,7 @@ class App extends React.Component {
     }
 
     componentDidUpdate(prevProps, prevState) {
-        console.log('did update')
+
     }
 
     getViewportSize() {
@@ -48,8 +54,7 @@ class App extends React.Component {
         }
     }
 
-    onAddBtnClick(event) {
-        console.log(this)
+    onAddBtnClick(event, ignoreLS) {
         const canvasList = this.state.canvasList;
         const canvasLength = canvasList.length;
 
@@ -57,20 +62,26 @@ class App extends React.Component {
         const boxWidth = viewPort.w / 5;
 
         if (canvasLength < ConstantsList.MAX_NUMBER_RECTANGLE) {
+            let newCanvas = <CanvasRectangle key={canvasLength} width={boxWidth} />
+            canvasList.push(newCanvas)
             this.setState({
-                canvasList: canvasList.concat(<CanvasRectangle key={canvasLength} width={boxWidth} />)
+                canvasList: canvasList
             });
         }
         if (canvasLength === ConstantsList.MAX_NUMBER_RECTANGLE) {
             this.setState({ openDialog: true });
         }
+
+        if (ignoreLS !== true) {
+            localStorage.setItem('react-canvas-count', canvasList.length);
+        }
     }
 
     onClearBtnClick(event) {
-        console.log(this)
         this.setState({
             canvasList: []
         });
+        localStorage.setItem('react-canvas-count', 0);
     }
 
     render() {

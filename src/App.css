@@ -19,3 +19,17 @@
 .btn-actions{
  margin: 0 10px;
 }
+
+@media print { 
+  html {
+    transform: scale(0.8);
+  }
+  body {
+    background-color: #000;
+  }
+  
+  canvas {
+    border: 10px solid #fff;
+  }
+}
+
