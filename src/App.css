@@ -22,14 +22,14 @@
 
 @media print { 
   html {
-    transform: scale(0.8);
+    transform: scale(0.5);
   }
   body {
-    background-color: #000;
+    background-color: #000!important;;
   }
   
   canvas {
-    border: 10px solid #fff;
+    border: 10px solid #fff!important;;
   }
 }
 

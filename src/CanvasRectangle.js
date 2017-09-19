@@ -20,8 +20,7 @@ export default class CanvasRectangle extends React.Component {
         const ctx = this.refs.canvas.getContext('2d');
         ctx.clearRect(0, 0, this.width, this.width);
         ctx.lineWidth=10;
-        ctx.rect(0, 0, this.width, this.width);
-        ctx.fillText('hello', 30, 30);        
+        ctx.rect(0, 0, this.width, this.width);      
         ctx.stroke();
     }
     render() {

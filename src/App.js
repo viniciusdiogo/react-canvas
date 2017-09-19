@@ -30,21 +30,10 @@ class App extends React.Component {
     };
 
     componentDidMount() {
-        console.log('did mount')
         let countRectagles = localStorage.getItem('react-canvas-count');
-        console.log('load localstorage', countRectagles);
         for (let i = 0; i < countRectagles; i++) {
-            console.log('loading', i)
             this.onAddBtnClick.call(this, null, true);
         }
-    }
-
-    componentWillUnmount() {
-        console.log('did unmount')
-    }
-
-    componentDidUpdate(prevProps, prevState) {
-
     }
 
     getViewportSize() {
