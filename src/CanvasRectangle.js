@@ -1,10 +1,8 @@
+/**
+ * Vinicius Diogo <viniciusdiogo@gmail.com>
+ * Canvas Rectangle Component
+ */
 import React from 'react';
-
-/*function rect(props) {
-    const {ctx, x, y, width, height} = props;
-    ctx.rect(x, y, width, height);
-    ctx.stroke();
-}*/
 
 export default class CanvasRectangle extends React.Component {
     constructor(props){
@@ -21,6 +19,7 @@ export default class CanvasRectangle extends React.Component {
     updateCanvas() {
         const ctx = this.refs.canvas.getContext('2d');
         ctx.clearRect(0, 0, this.width, this.width);
+        ctx.lineWidth=10;
         ctx.rect(0, 0, this.width, this.width);
         ctx.stroke();
     }
